@@ -1,0 +1,35 @@
+---
+layout: default
+title: "People"
+---
+<div class="home">
+  <h1 class="page-heading">This is where we introduce our AWESOME PEOPLE</h1>
+
+
+    <div class = "row">
+      <div class="col s12 m6">
+        <div class="icon-block">
+        <ul class="post-list">
+    {% for person in site.people %}
+      <li>
+        {%if person.homepage == nil %}
+        <h2>
+          <a class="post-link" href="{{ person.url}}">
+            <img class="thumbnail" src="{{ person.thumbnail }}">
+          </a>
+        </h2>
+        {% else %}
+        <h2>
+          <a class="post-link" href="{{ person.homepage}}">
+            <img class="thumbnail" src="{{ person.thumbnail }}">
+          </a>
+        </h2>
+        {% endif %}
+      </li>
+    {% endfor %}
+      </ul>
+    </div>
+  </div>
+  </div>
+
+</div>

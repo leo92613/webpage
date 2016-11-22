@@ -1,0 +1,18 @@
+---
+layout: default
+title: "News"
+---
+<div class="home">
+  <h1 class="page-heading">This is for News and Annoucement</h1>
+
+  <ul class="post-list">
+    {% for new in site.news %}
+      <li>
+            <span class="post-meta">{{ new.date | date: "%b %-d, %Y" }}</span>
+        <h2>
+          <a class="post-link" href="{{ new.url }}">{{ new.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

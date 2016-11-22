@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Future Reality Lab</title>
+    <description>This is an AWESOME Lab!(A simple introduction about our lab)</description>
+    <link>http://yourdomain.com/</link>
+    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 21 Oct 2016 14:49:04 -0400</pubDate>
+    <lastBuildDate>Fri, 21 Oct 2016 14:49:04 -0400</lastBuildDate>
+    <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Helicopter (Kaiju) Demo</title>
+        <description>&lt;h1 id=&quot;helicopter-kaiju-demo&quot;&gt;&lt;strong&gt;Helicopter (Kaiju) Demo&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;p&gt;Hey all. Here’s just a quick recap of the demo.&lt;/p&gt;
+
+&lt;p&gt;An exploration of minimalist virtual 3D interfaces and VR vehicular control. Extended the SDK–Holojam tracking spaces that move, as well as a suite of generic interactable controls (levers, buttons, joysticks) and UI stuff (configurable wrist displays, headset-based HUD). Got a chance to work with the pairable system as well–pilot gloves–and turned the cube into a magical object: when everybody touches it, it transforms between a small model of a helicopter and a flying one. Also supports Vive, i.e. a friendly giant walking around the city. Finally, stress-tested the synchronizable system by streaming complex helicopter physics out to the phones after receiving flying input from said phones. Took less than a week! Unfortunately, I didn’t even scratch the surface of all the possibilities :(&lt;/p&gt;
+
+&lt;p&gt;During the course of the project, I wrote up a quick procedural city generator as well:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/Kaiju.gif&quot; alt=&quot;Kaiju gif&quot; /&gt;
+&lt;img src=&quot;/img/Kaiju2.gif&quot; alt=&quot;Kaiju City gif&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It does street names and boroughs as well. Yes there is a Perlin St… and a Bork Rd., and a Protagonist Avenue.&lt;/p&gt;
+
+&lt;p&gt;Ken, I apologize for your poor experience with the demo earlier–we were synchronizing the servers and the live stream and things got a bit wonky. Also my bad piloting! Hopefully this informative video will make up for it:
+​&lt;/p&gt;
+&lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://www.youtube.com/embed/4ctK1aoWuqY?autoplay=1&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;I actually spent a good amount of time getting the visuals to look nice. Alas, sharing the project to multiple computers broke the lighting and shading, as you can see in the video. Oh well!&lt;/p&gt;
+
+&lt;p&gt;Big thanks to Scott for hooking it all up in the web and in general being awesome. Looking forward to next week, and hopefully a smoother experience!&lt;/p&gt;
+
+&lt;p&gt;Best,
+Aaron&lt;/p&gt;
+</description>
+        <pubDate>Thu, 11 Aug 2016 09:33:04 -0400</pubDate>
+        <link>http://yourdomain.com/jekyll/update/2016/08/11/Kaiju.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2016/08/11/Kaiju.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+  </channel>
+</rss>

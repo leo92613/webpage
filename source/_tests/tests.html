@@ -1,0 +1,18 @@
+---
+layout: default
+title: "Tests"
+---
+<div class="home">
+  <h1 class="page-heading">This is where we introduce our AWESOME PEOPLE</h1>
+
+  <ul class="post-list">
+    {% for test in site.tests %}
+      <li>
+
+        <h2>
+          <a class="post-link" href="{{ test.url }}">{{ test.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

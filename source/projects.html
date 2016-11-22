@@ -1,0 +1,17 @@
+---
+layout: default
+title: "Projects"
+---
+<div class="home">
+  <h1 class="page-heading">This is for Archive Projects</h1>
+
+  <ul class="post-list">
+    {% for project in site.projects %}
+      <li>
+        <h2>
+          <a class="post-link" href="{{ project.url }}">{{ project.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

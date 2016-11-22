@@ -1,0 +1,64 @@
+---
+layout: default
+---
+<div class="card z-depth-2">
+  <h1 class="header center orange-text">{{ site.title }}</h1>
+  <div class="row center">
+    <h5 class="header col s12 light">{{ site.description }}</h5>
+  </div>
+</div
+  <div class="section">
+    <!--   Icon Section   -->
+    <div class="row">
+      <div class="col s12 m6">
+        <div class="icon-block">
+          <h5 class="center">News</h5>
+
+          <p class="light">This is the place where we can put up the most recent news.</p>
+          <ul class="post-list">
+            {% for new in site.news %}
+              <li>
+                    <span class="post-meta">{{ new.date | date: "%b %-d, %Y" }}</span>
+                <h2>
+                  <a class="post-link" href="{{ new.url }}">{{ new.title }}</a>
+                </h2>
+              </li>
+            {% endfor %}
+          </ul>
+
+        </div>
+      </div>
+
+      <div class="col s12 m6">
+        <div class="icon-block">
+          <h5 class="center">Project</h5>
+          <p class="light">This is the place we put up the development blog for our most recent projects</p>
+          <ul class="post-list">
+            {% for post in site.projects %}
+              <li>
+                <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+                <h2>
+                  <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
+                </h2>
+              </li>
+            {% endfor %}
+          </ul>
+
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 m6">
+        <div class="row center">
+          <a href="/news.html" id="download-button" class="btn-large waves-effect waves-light orange">Read More</a>
+        </div>
+      </div>
+      <div class="col s12 m6">
+        <div class="row center">
+          <a href="/posts.html" id="download-button" class="btn-large waves-effect waves-light orange">Read More</a>
+        </div>
+      </div>
+    </div>
+  <br><br>
+</div>
